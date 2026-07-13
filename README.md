@@ -8,6 +8,7 @@
 | **Evidence Level** | Under Validation |
 | **License** | MIT |
 | **Framework Type** | Business-First Data Analytics Methodology |
+| **Owned By** | Subir Sutradhar |
 | **Maintained By** | Subir Sutradhar |
 
 > **Business First. Evidence Always.**
