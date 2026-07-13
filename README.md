@@ -264,6 +264,7 @@ By following this methodology, you will learn to:
 DAPM does not promise to make you an expert in Python, SQL, or Power BI.
 
 Instead, it aims to help you become a better analyst—one who solves business problems through disciplined thinking and evidence-based decision-making.
+
 ----
 ## Repository Structure
 
