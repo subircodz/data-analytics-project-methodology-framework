@@ -85,3 +85,9 @@ Every completed project is an opportunity to evaluate, refine, and improve the f
 # Vision
 
 DAPM is an evolving methodology that is continuously refined through real-world projects and practical experience.
+
+---
+
+**Document Version:** v0.1.0  
+**DAPM Version:** v0.1.0  
+**Status:** Experimental
