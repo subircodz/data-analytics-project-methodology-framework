@@ -1,4 +1,6 @@
-# Data Analytics Project Methodology (DAPM)
+# DAPM Framework
+**Data Analytics Project Methodology**
+> **Business First. Evidence Always.**
 
 <p align="center">
   <img src="assets/images/banner.png" alt="Project Banner" width="100%">
@@ -14,7 +16,6 @@
 | **Owned By** | Subir Sutradhar |
 | **Maintained By** | Subir Sutradhar |
 
-> **Business First. Evidence Always.**
 
 
 The **Data Analytics Project Methodology (DAPM)** is an open-source framework that provides a structured, repeatable, and business-first approach to executing end-to-end data analytics projects.
