@@ -1,5 +1,8 @@
 # Data Analytics Project Methodology (DAPM)
 
+<p align="center">
+  <img src="assets/images/banner.png" alt="Project Banner" width="100%">
+</p>
 
 | Property | Value |
 |----------|-------|
