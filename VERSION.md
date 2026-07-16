@@ -2,7 +2,7 @@
 
 ## Current Version
 
-DAPM v0.1.0
+DAPM v0.1.1
 
 ---
 

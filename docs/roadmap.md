@@ -1,6 +1,6 @@
 # DAPM Roadmap
 
-## v0.2
+## v0.2.0
 
 - Evidence Traceability
 - Standard Observation IDs
@@ -11,7 +11,7 @@
 
 ---
 
-## v0.3
+## v0.3.0
 
 - Dashboard Blueprint
 - SQL Analysis Blueprint
@@ -20,7 +20,7 @@
 
 ---
 
-## v0.4
+## v0.4.0
 
 - Domain-specific Blueprints
 
@@ -48,11 +48,11 @@ Examples:
 
 ⬜ Airline Analytics
 
-## v1.0
+## v2.0
 
 Release Criteria
 
-DAPM will reach version 1.0 after:
+DAPM will reach version 2.0 after:
 
 - Completion of multiple end-to-end case studies
 - Validation across multiple business domains

@@ -1,6 +1,6 @@
 # Comparison with Existing Methodologies
 
-> **Status:** Initial Comparison (v0.1)
+> **Status:** Initial Comparison (v0.1.1)
 >
 > This document provides a high-level comparison between the **DAPM Framework (Data Analytics Project Methodology)** and several widely recognized data analytics methodologies.
 >
@@ -157,6 +157,6 @@ As additional projects are completed, this document will be updated with evidenc
 
 **Framework Status:** Experimental
 
-**Current Version:** v0.1.0
+**Current Version:** v0.1.1
 
 **Evidence Level:** Under Validation

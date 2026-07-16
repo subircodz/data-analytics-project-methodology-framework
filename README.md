@@ -175,7 +175,7 @@ The framework encourages analysts to ask the right questions before searching fo
 
 ## DAPM Workflow
 
-```text
+```
 Business Problem
         │
         ▼
@@ -272,7 +272,7 @@ Instead, it aims to help you become a better analyst—one who solves business p
 ----
 ## Repository Structure
 
-```text
+```t
 DAPM
 .
 ├── assets
@@ -423,7 +423,7 @@ DAPM follows Semantic Versioning.
 MAJOR.MINOR.PATCH
 ```
 
-The methodology is currently in **v0.1.0 (Experimental)** and will continue to evolve based on practical experience and community feedback.
+The methodology is currently in **v0.1.1 (Experimental)** and will continue to evolve based on practical experience and community feedback.
 
 ---
 

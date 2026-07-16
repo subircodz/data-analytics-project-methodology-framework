@@ -204,6 +204,6 @@ DAPM provides the methodology used throughout this repository.
 
 ---
 
-**Document Version:** v0.1.0  
-**DAPM Version:** v0.1.0  
+**Document Version:** v0.1.1  
+**DAPM Version:** v0.1.1  
 **Status:** Experimental

@@ -137,3 +137,9 @@ A document, report, dataset, dashboard, or other output produced during a DAPM p
 # Methodology
 
 A structured approach that defines the phases, activities, and deliverables used to execute a data analytics project.
+
+---
+
+**Document Version:** v0.1.1  
+**DAPM Version:** v0.1.1  
+**Status:** Experimental
