@@ -363,3 +363,81 @@ Re-evaluate after Project 5.
 **Status:**
 
 🟡 Pending validation.
+
+---
+
+## Observation 010
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+
+For technical phases (such as Data Validation, Data Preparation, Exploratory Data Analysis, etc.), adopt a layered documentation structure.
+
+Each phase should contain:
+
+- A primary `README.md` acting as an executive summary.
+- Separate implementation folders for each technology (Spreadsheet, SQL, Python, etc.).
+- Each technology folder should contain its own implementation files, screenshots, and a dedicated `README.md` documenting the complete workflow.
+
+This separates methodology from implementation while keeping the repository well organized.
+
+**Benefit:**
+
+- Keeps phase documentation concise and easy to read.
+- Allows each technology implementation to be self-contained.
+- Prevents large, difficult-to-maintain documentation files.
+- Improves repository organization.
+- Enables recruiters to quickly evaluate skills in a specific technology.
+
+**Evidence:**
+
+Observed during the design of the Data Validation phase, where combining Spreadsheet, SQL, and Python documentation into a single document reduced readability and made navigation difficult.
+
+**Action:**
+
+Re-evaluate after Project 5.
+
+**Status:**
+
+🟡 Pending validation.
+
+---
+
+## Observation 011
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+
+Standardize navigation across all technical documentation.
+
+Every phase `README.md` and every technology-specific `README.md` should include a consistent **Navigation** section linking to:
+
+- The parent phase document.
+- Other technology implementations within the same phase.
+- Previous and next DAPM phases where applicable.
+
+This creates a predictable documentation hierarchy throughout every DAPM project.
+
+**Benefit:**
+
+- Improves document discoverability.
+- Makes repository navigation intuitive.
+- Reduces the effort required to locate related documents.
+- Creates a consistent reading experience across all DAPM projects.
+- Improves the overall professionalism of the project documentation.
+
+**Evidence:**
+
+Observed while designing the documentation structure for the Data Validation phase, where cross-linking implementation documents significantly improved accessibility and user experience.
+
+**Action:**
+
+Re-evaluate after Project 5.
+
+**Status:**
+
+🟡 Pending validation.
