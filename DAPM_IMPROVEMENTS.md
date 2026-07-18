@@ -324,3 +324,42 @@ Validate across at least five DAPM projects before considering inclusion in DAPM
 
 **Status:**
 🟡 Pending validation.
+
+---
+
+## Observation 009
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+
+DAPM should remain **tool-agnostic**. During technical phases such as Data Validation, Data Preparation, and Exploratory Data Analysis, the methodology should encourage demonstrating the same analytical task using multiple industry-standard tools where appropriate.
+
+For portfolio projects, the recommended implementation order is:
+
+- Spreadsheet (LibreOffice Calc / Microsoft Excel)
+- SQL
+- Python (Pandas)
+
+This approach demonstrates that the analyst can perform the same business task using different technologies rather than relying on a single tool.
+
+**Benefit:**
+
+- Demonstrates proficiency in Spreadsheet, SQL, and Python within a single project.
+- Allows recruiters to evaluate practical skills across multiple technologies.
+- Reinforces that business analysis is independent of the implementation tool.
+- Improves the educational value of portfolio projects.
+- Makes DAPM suitable for learners with different technical backgrounds.
+
+**Evidence:**
+
+Observed during the implementation planning of the Data Validation phase, where relying solely on Python would not adequately showcase spreadsheet and SQL competencies.
+
+**Action:**
+
+Re-evaluate after Project 5.
+
+**Status:**
+
+🟡 Pending validation.
