@@ -17,7 +17,7 @@
 
 ---
 
-# Overview
+# 📝 Overview
 
 The **Data Analytics Project Methodology (DAPM)** is an open-source framework that provides a structured, repeatable, and business-first approach to executing end-to-end data analytics projects.
 
@@ -29,7 +29,7 @@ DAPM is technology-independent and can be applied using spreadsheets, SQL, Pytho
 
 ---
 
-# Why DAPM?
+# 💡 Why DAPM?
 
 Many analytics projects begin with data.
 
@@ -41,7 +41,7 @@ The framework promotes disciplined analytical thinking rather than tool-specific
 
 ---
 
-# Supported Project Types
+# 📌 Supported Project Types
 
 DAPM is designed to support different types of analytics projects.
 
@@ -56,37 +56,24 @@ DAPM is designed to support different types of analytics projects.
 
 ---
 
-# DAPM Workflow
+.
 
-The complete methodology architecture is maintained separately.
-
-➡️ **[DAPM Architecture](docs/ARCHITECTURE.md)**
-
-This document defines:
-
-- Official workflow
-- Phase responsibilities
-- Design principles
-- Architecture decisions
-
----
-
-# Documentation
+# 📝 Documentation
 
 The framework documentation is organized into focused documents.
 
 | Document | Description |
 |----------|-------------|
 | **[ARCHITECTURE](docs/ARCHITECTURE.md)** | Official DAPM workflow and phase responsibilities. |
-| **[PHILOSOPHY](docs/philosophy.md)** | The ideas and mindset behind the methodology. |
-| **[PRINCIPLES](docs/principles.md)** | Core principles followed by every DAPM project. |
-| **[TERMINOLOGY](docs/terminology.md)** | Standard terminology used throughout the framework. |
-| **[ROADMAP](docs/roadmap.md)** | Planned improvements and future releases. |
-| **[VERSIONING](docs/versioning.md)** | Versioning strategy for DAPM releases. |
+| **[PHILOSOPHY](docs/PHILOSOPHY.md)** | The ideas and mindset behind the methodology. |
+| **[PRINCIPLES](docs/PRINCIPLES.md)** | Core principles followed by every DAPM project. |
+| **[TERMINOLOGY](docs/TERMINOLOGY.md)** | Standard terminology used throughout the framework. |
+| **[ROADMAP](docs/ROADMAP.md)** | Planned improvements and future releases. |
+| **[VERSIONING](docs/VERSIONING.md)** | Versioning strategy for DAPM releases. |
 
 ---
 
-# Template Library
+# 🗂️ Template Library
 
 DAPM includes a standardized documentation library for analytics projects.
 
@@ -107,11 +94,11 @@ Templates are currently under validation through practical implementations.
 | Recommendations | Provides evidence-based business actions. |
 | Executive Summary | Presents findings for decision makers. |
 
-➡️ **See the complete template library in [`templates/`](templates/).**
+🗂️ **See the complete template library in [`templates/`](templates/).**
 
 ---
 
-# Validation Projects
+# 💻 Validation Projects
 
 DAPM follows an evidence-driven development approach.
 
@@ -126,28 +113,53 @@ Future validation projects will expand into additional business domains.
 
 ---
 
-# Repository Structure
+# 📁 Repository Structure
 
 ```text
 DAPM
-│
-├── docs/
-├── templates/
-├── checklists/
-├── examples/
-├── improvements/
-├── assets/
-│
-├── README.md
+├── assets
+│   └── images   
 ├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
+├── docs
+│   ├── ARCHITECTURE.md
+│   ├── PHILOSOPHY.md
+│   ├── PRINCIPLES.md
+│   ├── ROADMAP.md
+│   ├── TERMINOLOGY.md
+│   └── VERSIONING.md
+├── GLOSSARY.md
 ├── LICENSE
-└── VERSION.md
+├── METHODOLOGY_COMPARISON.md
+├── METHODOLOGY.md
+├── README.md
+├── SECURITY.md
+└── templates
+    ├── 00_README_TEMPLATE.md
+    ├── 01_PROJECT_BRIEF.md
+    ├── 02_BUSINESS_UNDERSTANDING.md
+    ├── 03_STAKEHOLDER_ANALYSIS.md
+    ├── 04_BUSINESS_REQUIREMENTS.md
+    ├── 05_DATA_DISCOVERY.md
+    ├── 06_DATA_PROFILING.md
+    ├── 07_DATA_CLEANING.md
+    ├── 08_DATA_VALIDATION.md
+    ├── 09_EDA_REPORT.md
+    ├── 10_BUSINESS_INSIGHTS.md
+    ├── 11_RECOMMENDATIONS.md
+    ├── 12_EXECUTIVE_SUMMARY.md
+    ├── ANALYTICAL_THINKING.md
+    ├── OBSERVATIONS.md
+    ├── PHASE_CHECKLIST.md
+    ├── PROJECT_SUMMARY.md
+    └── README.md
+
 ```
 
 ---
 
-# Getting Started
+# 🚀 Getting Started
 
 1. Read the **Architecture** document.
 2. Understand the **Philosophy** and **Principles**.
@@ -157,7 +169,7 @@ DAPM
 
 ---
 
-# Version Status
+# 📝 Version Status
 
 DAPM is currently under active development.
 
@@ -167,7 +179,7 @@ Every significant change is validated before being included in a stable release.
 
 ---
 
-# Roadmap
+# 🎯 Roadmap
 
 Future releases will focus on:
 
@@ -181,7 +193,7 @@ See **[Roadmap](docs/ROADMAP.md)** for details.
 
 ---
 
-# Contributing
+# 👥 Contributing
 
 DAPM is an open and evolving methodology.
 
@@ -191,7 +203,7 @@ Please open an Issue or submit a Pull Request if you would like to contribute.
 
 ---
 
-# License
+# 📜 License
 
 DAPM Framework © 2026 Subir Sutradhar
 
