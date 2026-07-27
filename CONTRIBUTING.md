@@ -1,48 +1,50 @@
 # Contributing to DAPM
 
-First of all, thank you for your interest in contributing to the **Data Analytics Project Methodology (DAPM)**.
+Thank you for your interest in contributing to the **Data Analytics Project Methodology (DAPM)**.
 
-DAPM is an evolving, business-first methodology that grows through practical experience, constructive discussion, and evidence gathered from real-world analytics projects.
+DAPM is developed through practical implementation and continuous validation. Every improvement is evaluated based on evidence gathered from real analytics projects before becoming part of a stable release.
 
-Every contribution, whether it is a documentation improvement, methodology refinement, template enhancement, or case study validation, is appreciated.
+Whether you are reporting an issue, improving documentation, refining templates, or validating the methodology through project work, your contribution is appreciated.
 
 ---
 
 # Guiding Principle
 
-The primary goal of DAPM is to improve how analysts think before they begin analyzing data.
-
-Contributions should strengthen the methodology without compromising its core philosophy:
+Every contribution should support DAPM's core philosophy:
 
 > **Business First. Evidence Always.**
+
+The objective is to improve the methodology while keeping it practical, simple, and applicable to real-world analytics projects.
 
 ---
 
 # Ways to Contribute
 
-You can contribute by:
+Contributions may include:
 
-* Reporting documentation errors.
-* Suggesting improvements to the methodology.
-* Improving existing templates.
-* Proposing additional checklists.
-* Sharing real-world case studies that validate or challenge the methodology.
-* Improving clarity, consistency, and terminology.
-* Fixing spelling or grammatical errors.
-* Enhancing examples and documentation.
+- Reporting documentation errors.
+- Suggesting methodology improvements.
+- Improving existing templates.
+- Adding new documentation.
+- Improving project checklists.
+- Validating DAPM through real analytics projects.
+- Improving terminology and consistency.
+- Correcting spelling, grammar, or formatting issues.
+- Enhancing examples and supporting documentation.
 
 ---
 
 # Before Opening an Issue
 
-Please consider the following questions:
+Before submitting an issue or proposing a methodology change, consider the following:
 
-* Does the suggestion solve a real business problem?
-* Is it supported by practical experience or evidence?
-* Does it improve clarity without adding unnecessary complexity?
-* Does it align with DAPM's business-first philosophy?
+- Does the suggestion solve a practical problem?
+- Has the issue been observed during an actual analytics project?
+- Does the proposal improve clarity or usability?
+- Does it align with DAPM's architecture, philosophy, and principles?
+- Has a similar issue already been reported?
 
-If the answer to these questions is **yes**, your suggestion is likely a good candidate for discussion.
+Well-supported proposals are more likely to be accepted.
 
 ---
 
@@ -50,34 +52,65 @@ If the answer to these questions is **yes**, your suggestion is likely a good ca
 
 When submitting a pull request:
 
-* Clearly describe the purpose of the change.
-* Keep pull requests focused on a single topic.
-* Explain the reasoning behind the proposed improvement.
-* Update documentation if required.
-* Maintain consistency with existing terminology and formatting.
+- Keep each pull request focused on a single change.
+- Clearly describe the purpose of the proposed change.
+- Explain why the change is required.
+- Update the relevant documentation where necessary.
+- Follow the terminology and documentation standards used throughout the framework.
 
 ---
 
-# Evidence-Based Improvements
+# Evidence-Driven Development
 
-DAPM follows an evidence-driven approach.
+DAPM follows an evidence-driven development model.
 
-Methodology changes should ideally be supported by observations from real analytics projects rather than personal preference alone.
+Methodology improvements should be supported by observations from practical analytics projects rather than personal preference alone.
 
-If a project reveals a limitation, documents a missing step, or identifies an opportunity for improvement, that experience is valuable evidence for refining future versions of DAPM.
+Validation projects play a central role in refining the framework. Lessons learned during implementation should be documented before proposing methodology changes.
+
+---
+
+# Development Workflow
+
+DAPM follows a two-branch development model.
+
+| Branch | Purpose |
+|----------|---------|
+| `develop` | Active development and validation of new features and methodology improvements. |
+| `main` | Stable releases intended for public use. |
+
+Contributors should base new work on the `develop` branch unless instructed otherwise.
+
+---
+
+# Reporting Issues
+
+When reporting an issue, include as much relevant information as possible.
+
+Where applicable, describe:
+
+- The problem observed.
+- Steps to reproduce the issue.
+- Expected behaviour.
+- Actual behaviour.
+- Supporting evidence or project context.
+
+Providing sufficient detail helps reproduce and resolve issues more efficiently.
 
 ---
 
 # Community Standards
 
-By participating in this project, you agree to follow the project's **Code of Conduct** and contribute respectfully and professionally.
+Please participate respectfully and professionally.
+
+Constructive discussion, technical feedback, and evidence-based suggestions are encouraged.
 
 ---
 
 # Questions and Discussions
 
-Questions, ideas, and constructive discussions are always welcome.
+If you are unsure whether an idea fits within DAPM, open a discussion before starting implementation.
 
-If you are unsure whether an idea fits within DAPM, feel free to open a discussion before investing time in implementing it.
+Early discussion often leads to better solutions and avoids unnecessary rework.
 
-Thank you for helping improve DAPM through thoughtful, evidence-based collaboration.
+Thank you for helping improve the Data Analytics Project Methodology.

@@ -1,50 +1,74 @@
 # Changelog
 
-All notable changes to the DAPM Framework will be documented in this file.
+This document records all notable changes made to the Data Analytics Project Methodology (DAPM).
 
-The format is inspired by [Keep a Changelog](https://keepachangelog.com/) and follows Semantic Versioning.
+Each release summarizes the major additions, improvements, fixes, and architectural changes introduced to the framework.
 
 ---
 
-## [v0.1.1] - 2026-07-16
+# [v0.2.1] - 2026-07-27
 
-### Added
+**Status:** 🟡 Experimental
+
+## Added
+
+- Redesigned DAPM architecture.
+- Introduced Data Discovery as a dedicated phase.
+- Introduced Data Profiling as a separate phase.
+- Added Project Summary document.
+- Added Philosophy document.
+- Added Principles document.
+- Added Terminology standard.
+
+## Changed
+
+- Refactored the DAPM workflow.
+- Separated Data Profiling, Data Cleaning, and Data Validation into independent phases.
+- Expanded methodology support for consultants, students, portfolio projects, Kaggle datasets, and internal business projects.
+- Reorganized framework documentation.
+- Improved documentation standards across the repository.
+
+## Removed
+
+- Deprecated the original methodology workflow used in v0.1.x.
+
+---
+
+# [v0.1.1] - 2026-07-16
+
+**Status:** Archived
+
+## Added
 
 - Standardized Project Brief template.
-- Standardized Project Case Journal template.
+- Standardized Project Journal template.
 - Standardized Analytical Thinking template.
 - Standardized Observations template.
 - Standardized Project README template.
-- Expanded the DAPM Template Library.
+- Expanded the DAPM template library.
 
-### Changed
+## Changed
 
-- Normalized documentation structure across all templates.
+- Standardized documentation structure across project templates.
 - Improved consistency of metadata, headings, and writing style.
-- Updated the DAPM README to accurately reflect the complete Template Library.
-- Improved documentation descriptions for all available templates.
-
-### Notes
-
-This release focuses on strengthening the DAPM documentation system by introducing a standardized template library. The templates remain under validation and will continue to evolve through practical analytics projects.
+- Updated the framework README to reflect the available template library.
+- Improved template documentation.
 
 ---
 
-## [v0.1.0] - 2026-07-15
+# [v0.1.0] - 2026-07-15
 
-### Added
+**Status:** Archived
 
-- Initial release of the DAPM Framework.
-- Framework principles and methodology.
+## Added
+
+- Initial public release of the DAPM Framework.
+- Initial methodology workflow.
 - Documentation standards.
 - Project workflow.
 - Governance documents.
-- Versioning strategy.
+- Versioning policy.
 - Roadmap.
 - Comparison with existing methodologies.
 - Initial documentation templates.
 - Framework README.
-
-### Notes
-
-First public release of the Data Analytics Project Methodology (DAPM) Framework.

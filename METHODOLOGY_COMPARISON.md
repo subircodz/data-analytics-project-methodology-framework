@@ -1,6 +1,6 @@
-# Comparison with Existing Methodologies
+# Methodology Comparison
 
-> **Status:** Initial Comparison (v0.1.1)
+> **Status:** Experimental
 >
 > This document provides a high-level comparison between the **DAPM Framework (Data Analytics Project Methodology)** and several widely recognized data analytics methodologies.
 >
@@ -33,7 +33,7 @@ Rather than replacing existing methodologies, DAPM aims to complement them by em
 | **CRISP-DM** | Data Mining Projects | Business Understanding | High | High | Industry Standard |
 | **KDD** | Knowledge Discovery | Data Selection | Medium | Very High | Academic Standard |
 | **SEMMA** | Statistical Modeling | Sample Data | Low | Very High | SAS Methodology |
-| **DAPM Framework** | Business Analytics Projects | Business Problem | Very High | High | Experimental (Under Validation) |
+| **DAPM Framework** | Business Analytics | Business Problem | Very High | High | Under Validation |
 
 ---
 
@@ -91,9 +91,10 @@ The framework intentionally separates activities that are often combined in prac
 - Stakeholder Analysis
 - Business Requirements
 - Data Discovery
+- Data Profiling
+- Data Cleaning
 - Data Validation
-- Data Cleaning & Preparation
-- Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis
 - Business Insights
 - Recommendations
 - Executive Summary
@@ -122,18 +123,15 @@ The framework is intended primarily for business analytics projects rather than 
 
 DAPM is currently in its early stages of development.
 
-At the time of writing:
+The framework is undergoing validation through multiple real-world analytics projects.  
 
-- The framework is undergoing validation through practical analytics projects.
-- Community feedback has not yet been collected.
-- No formal academic evaluation has been performed.
-- Comparisons with existing methodologies are based on design philosophy rather than empirical studies.
+Methodology improvements are introduced only after practical validation.  
 
 Future versions of DAPM may evolve as additional evidence becomes available.
 
 ---
 
-# Future Improvements
+# Future Evolution
 
 Future versions may include:
 
@@ -155,8 +153,8 @@ As additional projects are completed, this document will be updated with evidenc
 
 ---
 
-**Framework Status:** Experimental
+Framework Status: Under Validation
 
-**Current Version:** v0.1.1
+DAPM Version: v0.2.0
 
-**Evidence Level:** Under Validation
+Document Version: v0.2.0

@@ -1,5 +1,7 @@
 # DAPM Framework
+
 ## Data Analytics Project Methodology
+
 *Business First. Evidence Always.*
 
 <p align="center">
@@ -8,490 +10,195 @@
 
 | Property | Value |
 |----------|-------|
-| **Current Version** | v0.1.1 |
+| **Current Version** | v0.2.1 |
 | **Release Status** | Experimental |
-| **Evidence Level** | Under Validation |
-| **License** | CC BY-NC-SA 4.0 |
 | **Framework Type** | Business-First Data Analytics Methodology |
-| **Owned By** | Subir Sutradhar |
-| **Maintained By** | Subir Sutradhar |
+| **License** | CC BY-NC-SA 4.0 |
 
+---
 
+# Overview
 
 The **Data Analytics Project Methodology (DAPM)** is an open-source framework that provides a structured, repeatable, and business-first approach to executing end-to-end data analytics projects.
 
-DAPM was created to help analysts solve business problems systematically instead of jumping directly into tools, dashboards, or code. It emphasizes understanding the business, identifying stakeholder needs, validating data, generating evidence-based insights, and delivering practical recommendations that support business decision-making.
+Instead of beginning with datasets, dashboards, or programming languages, DAPM begins with the business problem.
 
-The methodology is tool-independent and can be applied regardless of whether the project uses spreadsheets, SQL, Python, R, Power BI, Tableau, or other analytical technologies.
+The methodology guides analysts from understanding the business through data preparation, analysis, insights, and evidence-based recommendations.
 
----
-
-## Why DAPM?
-
-Many analytics projects begin with a dataset.
-
-The analyst loads the data, creates charts, builds dashboards, and presents the results.
-
-While technically correct, this approach often overlooks the most important question:
-
-> **What business problem are we trying to solve?**
-
-DAPM takes a different approach.
-
-Before exploring the data, the methodology focuses on understanding the business, identifying stakeholders, defining business requirements, and validating the available data.
-
-Only then does analysis begin.
-
-This ensures that every chart, insight, and recommendation contributes toward solving a real business problem rather than simply describing the data.
+DAPM is technology-independent and can be applied using spreadsheets, SQL, Python, R, Power BI, Tableau, or any analytical platform.
 
 ---
 
-## Philosophy
+# Why DAPM?
 
-DAPM is built on a simple belief:
+Many analytics projects begin with data.
 
-> **Data informs decisions. Decisions create business value.**
+DAPM begins with the business.
 
-Data helps organizations understand what has happened.
+This simple shift helps ensure that every analysis answers a business question and every recommendation is supported by evidence.
 
-Analysis explains why it happened.
-
-Insights reveal what it means.
-
-Recommendations guide what should happen next.
-
-Business value is created only when evidence leads to better decisions.
+The framework promotes disciplined analytical thinking rather than tool-specific workflows.
 
 ---
 
-## The DAPM Mindset
->
-> Every dataset tells a story.
->
-> Listen before you analyze.
->
-> Ask:
->
-> **Who?**
->
-> **What?**
->
-> **Why?**
->
-> Keep what answers the business question.
->
-> Ignore what doesn't. Don't Garbage
+# Supported Project Types
 
-## When to Use DAPM
+DAPM is designed to support different types of analytics projects.
 
-DAPM is designed for projects where the goal is to solve a business problem through data analysis.
-
-It is suitable for:
-
-* Business analytics projects
-* Exploratory data analysis (EDA)
-* Dashboard development
-* KPI and performance reporting
-* Operational analytics
-* Decision-support systems
-* Portfolio projects
-* Freelance analytics consulting
-* Academic case studies
-
-The methodology is domain-independent and can be applied across industries such as retail, healthcare, finance, manufacturing, logistics, education, and human resources.
+| Project Type | Supported |
+|--------------|:---------:|
+| Client Consulting Projects | ✅ |
+| Internal Business Projects | ✅ |
+| Portfolio Projects | ✅ |
+| Academic Case Studies | ✅ |
+| Kaggle Projects | ✅ |
+| Self-learning Projects | ✅ |
 
 ---
 
-## When DAPM May Not Be the Right Choice
+# DAPM Workflow
 
-DAPM is not intended to replace specialized methodologies used in software engineering, data engineering, machine learning, or scientific research.
+The complete methodology architecture is maintained separately.
 
-Examples include:
+➡️ **[DAPM Architecture](docs/ARCHITECTURE.md)**
 
-* Software development projects
-* ETL pipeline engineering
-* Machine learning model development
-* Deep learning research
-* DevOps and infrastructure projects
-* Scientific experiments requiring research methodologies
+This document defines:
 
-DAPM can complement these disciplines by providing a structured business analysis process before technical implementation, but it is not a substitute for their specialized workflows.
-
-
-## Who Is DAPM For?
-
-DAPM is designed for anyone who wants a structured approach to data analytics, including:
-
-- Students learning data analytics
-- Aspiring Data Analysts
-- Business Analysts
-- Freelance Analysts
-- Data Analytics Consultants
-- Analytics Teams
-- Organizations seeking standardized analytics workflows
-
-Whether you are analyzing a small spreadsheet or an enterprise database, the underlying analytical process remains the same.
+- Official workflow
+- Phase responsibilities
+- Design principles
+- Architecture decisions
 
 ---
 
-## Objectives
+# Documentation
 
-DAPM aims to:
+The framework documentation is organized into focused documents.
 
-- Promote business-first thinking.
-- Standardize the analytics workflow.
-- Encourage evidence-based decision-making.
-- Improve project documentation.
-- Create repeatable analytical processes.
-- Produce professional, portfolio-quality projects.
-- Bridge the gap between technical analysis and business value.
-
----
-
-## Core Principles
-
-Every DAPM project follows these guiding principles.
-
-- Business before technology.
-- Stakeholders before dashboards.
-- Data must be validated before analysis.
-- Observations must be supported by evidence.
-- Business insights must be traceable to observations.
-- Recommendations must be practical and evidence-based.
-- Documentation evolves throughout the project lifecycle.
-- Every project should improve the methodology.
+| Document | Description |
+|----------|-------------|
+| **[ARCHITECTURE](docs/ARCHITECTURE.md)** | Official DAPM workflow and phase responsibilities. |
+| **[PHILOSOPHY](docs/philosophy.md)** | The ideas and mindset behind the methodology. |
+| **[PRINCIPLES](docs/principles.md)** | Core principles followed by every DAPM project. |
+| **[TERMINOLOGY](docs/terminology.md)** | Standard terminology used throughout the framework. |
+| **[ROADMAP](docs/roadmap.md)** | Planned improvements and future releases. |
+| **[VERSIONING](docs/versioning.md)** | Versioning strategy for DAPM releases. |
 
 ---
 
-## What Makes DAPM Different?
+# Template Library
 
-DAPM focuses on **how analysts think**, not **which tools they use**.
+DAPM includes a standardized documentation library for analytics projects.
 
-Instead of prescribing programming languages or software, DAPM provides a structured methodology that guides analysts from the initial business problem to final business recommendations.
-
-The framework encourages analysts to ask the right questions before searching for answers, helping ensure that technical work remains aligned with business objectives.
-
----
-
-## DAPM Workflow
-
-```
-Business Problem
-        │
-        ▼
-Business Understanding
-        │
-        ▼
-Stakeholder Analysis
-        │
-        ▼
-Business Requirements
-        │
-        ▼
-Data Discovery
-        │
-        ▼
-Data Validation
-        │
-        ▼
-Data Cleaning & Preparation
-        │
-        ▼
-Exploratory Data Analysis (EDA)
-        │
-        ▼
-Business Insights
-        │
-        ▼
-Recommendations
-        │
-        ▼
-Executive Summary
-        │
-        ▼
-Business Decision
-```
----
-
-# Guiding Questions
-
-DAPM is driven by **questions**, not tools.
-
-Each phase encourages the analyst to pause, think, and ask the right business question before moving forward.
-
-The goal is not to complete phases mechanically, but to ensure that every step contributes to solving the business problem.
-
-| Phase | Guiding Question |
-|--------|------------------|
-| Business Understanding | **What business problem are we trying to solve?** |
-| Stakeholder Analysis | **Who needs this analysis and why?** |
-| Business Requirements | **What information is required to support business decisions?** |
-| Data Discovery | **What data is available to answer the business questions?** |
-| Data Validation | **Can the available data be trusted?** |
-| Data Cleaning & Preparation | **Is the dataset ready for analysis?** |
-| Exploratory Data Analysis (EDA) | **What patterns, trends, and anomalies exist in the data?** |
-| Business Insights | **What do these observations mean for the business?** |
-| Recommendations | **What actions should the business take?** |
-| Executive Summary | **What business decision should be made?** |
-
-These questions act as mental checkpoints throughout the project lifecycle.
-
-Instead of asking:
-
-> *"What chart should I create next?"*
-
-DAPM encourages analysts to ask:
-
-> *"What question am I trying to answer?"*
-
-This shift keeps the analysis focused on business value rather than technical output.
-
----
-
-# The DAPM Promise
-
-DAPM is more than a sequence of phases.
-
-It is a way of thinking.
-
-By following this methodology, you will learn to:
-
-- Understand business problems before exploring data.
-- Identify the stakeholders behind every analysis.
-- Ask meaningful business questions.
-- Validate data before trusting it.
-- Separate observations from business insights.
-- Support every recommendation with evidence.
-- Communicate findings clearly to decision-makers.
-- Build analytics projects that are structured, repeatable, and business-focused.
-
-DAPM does not promise to make you an expert in Python, SQL, or Power BI.
-
-Instead, it aims to help you become a better analyst—one who solves business problems through disciplined thinking and evidence-based decision-making.
-
-----
-## Repository Structure
-
-```t
-DAPM
-.
-├── assets
-│   ├── diagrams
-│   └── images
-│       └── banner.png
-├── CHANGELOG.md
-├── checklists
-│   └── PROJECT_CHECKLIST.md
-├── CODE_OF_CONDUCT.md
-├── COMPARISON_WITH_EXISTING_METHODOLOGIES.md
-├── CONTRIBUTING.md
-├── DAPM_IMPROVEMENTS.md
-├── docs
-│   ├── glosarry.md
-│   ├── methodology.md
-│   ├── philosophy.md
-│   ├── principles.md
-│   ├── roadmap.md
-│   ├── terminology.md
-│   └── versioning.md
-├── examples
-├── images
-├── improvements
-│   ├── ANALYTICAL_THINKING.md
-│   ├── OBSERVATIONS.md
-│   └── PROJECT_BRIEF.md
-├── LICENSE
-├── README.md
-├── SECURITY.md
-├── templates
-│   ├── BUSINESS_INSIGHTS.md
-│   ├── EDA_REPORT.md
-│   ├── EXECUTIVE_SUMMARY.md
-│   ├── PROJECT_CASE_JOURNAL.md
-│   ├── README.md
-│   ├── README_TEMPLATE.md
-│   ├── RECOMMENDATIONS.md
-│   └── VALIDATION_REPORT.md
-└── VERSION.md
-
-```
-
-Each directory has a specific purpose and supports a different stage of the methodology.
-
----
-
-## Getting Started
-
-DAPM is a methodology rather than a software library, so there is nothing to install.
-
-To use DAPM:
-
-1. Clone or download this repository.
-2. Read the methodology documentation.
-3. Follow the project checklist.
-4. Use the provided templates throughout your project.
-5. Adapt the methodology to your business problem while preserving its core principles.
-
----
-
-## Documentation
-
-The documentation explains the ideas behind DAPM.
-
-| Document       | Purpose                                   |
-| -------------- | ----------------------------------------- |
-| [PHILOSOPHY](docs/philosophy.md)  | The mindset behind the methodology        |
-| [PRINCIPLES](docs/principles.md)  | Core principles that guide every project  |
-| [METHODOLOGY](docs/methodology.md) | Complete project lifecycle                |
-| [GLOSSARY](docs/glossary.md)    | Standard terminology used throughout DAPM |
-| [ROADMAP](docs/roadmap.md)     | Planned improvements for future versions  |
-| [VERSIONING](docs/versioning.md)  | Versioning policy for the methodology     |
-
----
-
-## Template Library *(Under Validation)*
-
-The DAPM Framework includes a standardized documentation library designed to support every phase of an analytics project.
-
-These templates are currently in **Draft** status and are being validated through real-world case studies. They will continue to evolve as evidence is collected from practical project implementations.
-
-The objective is to provide a consistent, reusable documentation standard for all DAPM projects.
+Templates are currently under validation through practical implementations.
 
 | Template | Purpose |
 |----------|---------|
-| **Project Brief** | Captures the client's business context, objectives, scope, and constraints. |
-| **Project Case Journal** | Records the chronological progress of the project, including meetings, decisions, assumptions, and milestones. |
-| **Analytical Thinking** | Documents the consultant's preliminary analytical reasoning before technical implementation begins. |
-| **Observations** | Maintains an evidence-based register of objective findings collected throughout the project lifecycle. |
-| **Phase Checklist** | Tracks the completion criteria and progress of each DAPM phase. |
-| **Business Requirements** | Defines the client's business objectives, analytical requirements, and expected deliverables. |
-| **Data Discovery** | Documents available data sources, ownership, accessibility, and initial data understanding. |
-| **Validation Report** | Assesses data quality, completeness, consistency, and validation findings before analysis. |
-| **EDA Report** | Documents exploratory data analysis, statistical summaries, patterns, and anomalies. |
-| **Business Insights** | Converts validated observations into meaningful business understanding and interpretations. |
-| **Recommendations** | Provides evidence-based business actions supported by analytical findings. |
-| **Executive Summary** | Presents a concise overview of the project, key findings, and recommendations for decision-makers. |
+| Project Brief | Defines the business problem and project scope. |
+| Project Summary | Summarizes the completed engagement. |
+| Business Understanding | Documents business operations and context. |
+| Stakeholder Analysis | Identifies stakeholders and their information needs. |
+| Business Requirements | Defines business questions, KPIs, and reporting needs. |
+| Data Discovery | Documents available datasets and data sources. |
+| Data Profiling | Records the characteristics of the raw dataset. |
+| Validation Report | Documents business validation results. |
+| EDA Report | Records exploratory analysis and observations. |
+| Business Insights | Converts findings into business understanding. |
+| Recommendations | Provides evidence-based business actions. |
+| Executive Summary | Presents findings for decision makers. |
 
-> **Current Status:** Draft Template Library (Under Validation)
->
-> These templates are being refined through the **Warehouse Operations & Inventory Analytics** and **SwiftMove Logistics Analytics** validation projects. Future DAPM releases will incorporate improvements based on practical usage and community feedback.
----
-
-## Checklists
-
-DAPM includes project checklists to help analysts execute each phase consistently.
-
-The checklist reduces the chance of skipping important activities and promotes a repeatable workflow across projects.
+➡️ **See the complete template library in [`templates/`](templates/).**
 
 ---
 
-## Design Philosophy
+# Validation Projects
 
-DAPM separates **thinking** from **technology**.
+DAPM follows an evidence-driven development approach.
 
-Technology changes.
-
-Business problems remain.
-
-Whether the analysis is performed using spreadsheets, SQL, Python, R, Power BI, Tableau, or future tools, the underlying business reasoning should remain consistent.
-
-DAPM aims to standardize that reasoning.
-
----
-
-## Validation
-
-DAPM is an evolving methodology.
-
-Rather than claiming to be complete, it will mature through real-world projects.
-
-Each completed case study helps identify improvements, refine templates, clarify terminology, and strengthen the methodology.
+Every architectural decision, document, and template is validated through practical analytics projects before becoming part of a stable release.
 
 Current validation projects include:
 
-* Warehouse Operations & Inventory Analytics *(In Progress)*
+- **WAVE** Warehouse Operations & Inventory Analytics
+- **LOGIX** Distribution Center & Logistics Analytics  
 
-Future validation is planned across additional business domains, including retail, healthcare, finance, human resources, and manufacturing.
+Future validation projects will expand into additional business domains.
 
 ---
 
-## Versioning
-
-DAPM follows Semantic Versioning.
+# Repository Structure
 
 ```text
-MAJOR.MINOR.PATCH
+DAPM
+│
+├── docs/
+├── templates/
+├── checklists/
+├── examples/
+├── improvements/
+├── assets/
+│
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── VERSION.md
 ```
-
-The methodology is currently in **v0.1.1 (Experimental)** and will continue to evolve based on practical experience and community feedback.
 
 ---
 
-## Roadmap
+# Getting Started
+
+1. Read the **Architecture** document.
+2. Understand the **Philosophy** and **Principles**.
+3. Review the project templates.
+4. Follow the DAPM workflow throughout your analytics project.
+5. Validate findings before making business recommendations.
+
+---
+
+# Version Status
+
+DAPM is currently under active development.
+
+The methodology evolves through practical implementation rather than theoretical assumptions.
+
+Every significant change is validated before being included in a stable release.
+
+---
+
+# Roadmap
 
 Future releases will focus on:
 
-* Additional project templates
-* Domain-specific analytics blueprints
-* Dashboard design guidelines
-* SQL and Python workflow recommendations
-* Example case studies
-* Community contributions
+- Additional validation projects
+- Improved documentation
+- Domain-specific blueprints
+- Community contributions
+- Methodology refinement based on practical evidence
 
-For detailed plans, see **docs/roadmap.md**.
-
----
-
-## Contributing
-
-Suggestions, discussions, improvements, and constructive feedback are welcome.
-
-If you identify opportunities to improve the methodology, please open an issue or submit a pull request.
-
-Every improvement should strengthen DAPM while preserving its business-first philosophy.
+See **[Roadmap](docs/ROADMAP.md)** for details.
 
 ---
 
-## Final Thought
+# Contributing
 
-Data does not solve business problems.
+DAPM is an open and evolving methodology.
 
-People do.
+Suggestions, discussions, validation findings, and improvements are welcome.
 
-Data informs people.
-
-Analysis provides evidence.
-
-Insights create understanding.
-
-Recommendations enable action.
-
-Business decisions create value.
-
-That is the philosophy behind DAPM.
-
-**Business First. Evidence Always.**
+Please open an Issue or submit a Pull Request if you would like to contribute.
 
 ---
 
-<h1 align="center">License & Copyright</h1>
-<p align="center">
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg"></a>
-</p>
+# License
 
-**Data Analytic Project Methodology Framework (DAPM Framework)** © 2026 by Subir Sutradhar is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+DAPM Framework © 2026 Subir Sutradhar
 
-### Under this license, others are free to:
-* **Share** — Copy and redistribute the material in any medium or format.
-* **Adapt** — Remix, transform, and build upon the material.
+Licensed under **CC BY-NC-SA 4.0**.
 
-### Under the following terms:
-* **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-* **NonCommercial** — You may **not** use the material for commercial purposes.
-* **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+See the [**LICENSE**](LICENSE) file for complete licensing information.
 
 ---
 
-
-
-> DAPM is an open and evolving methodology. Feedback, discussion, and improvements are welcome through issues and pull requests.
+> **Business First. Evidence Always.**

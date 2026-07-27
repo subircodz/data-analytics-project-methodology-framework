@@ -1,138 +1,169 @@
 # Project Brief
 
-> **Framework:** DAPM (Data Analytics Project Methodology)
->
-> **Document Type:** Project Brief
->
-> **Version:** v0.1.1 (Draft Template)
->
-> **Status:** Under Validation
+> **Document Type:** Project Initiation Document
 
 ---
 
 # Purpose
 
-The Project Brief captures the initial understanding of the client's business problem before any analytical work begins.
+The Project Brief records the initial understanding of the analytics project before detailed analysis begins.
 
-It serves as the foundation for the Business Understanding phase and provides the context required to initiate stakeholder discussions, requirement gathering, and data discovery.
+It defines the business context, project scope, objectives, and available information, providing a common starting point for the remaining DAPM phases.
+
+The Project Brief may be created from a client discussion, an existing business problem, an internal organizational initiative, or a publicly available dataset.
 
 ---
 
 # When to Use
 
-Complete this document immediately after the initial client meeting.
+Prepare this document immediately after selecting or receiving a project.
 
-This document should reflect the client's perspective rather than the analyst's assumptions.
+The information captured here represents the initial understanding of the project and may be refined during later DAPM phases.
 
 ---
 
-# Client Information
+# Project Information
 
 | Field | Details |
 |--------|---------|
-| Client Name | Apex Warehouse & Distribution Pvt. Ltd. |
-| Industry | Warehousing & Distribution |
-| Primary Contact | Anil Sharma |
-| Designation | General Manager |
-| Project Type | Warehouse Operations & Inventory Analytics |
-| Prepared By | Subir Sutradhar |
-| Date | YYYY-MM-DD |
+| Project Name | |
+| Organization / Client | |
+| Industry | |
+| Project Category | Client Project / Internal Project / Portfolio Project / Academic Project |
+| Data Source | Client Data / Internal System / Public Dataset / Kaggle / Other |
+| Prepared By | |
+| Date | |
 
 ---
 
 # Business Background
 
-Apex Warehouse & Distribution Pvt. Ltd. is a third-party logistics company responsible for receiving products from multiple suppliers, storing inventory, and distributing products to retailers and business customers across various regions.
+Provide a brief overview of the organization, business domain, or project context.
 
-As business operations have expanded, warehouse management has become increasingly complex, making it difficult for leadership to maintain operational visibility and make timely business decisions.
+The objective is to understand the environment in which the project exists before discussing the specific problem.
 
 ---
 
-# Business Problem
+# Problem Statement
 
-The client reports several operational challenges, including:
+Describe the primary business problem, opportunity, or objective that initiated the project.
 
-- Frequent stock shortages for high-demand products.
-- Slow-moving inventory occupying warehouse space.
-- Increasing product returns and damaged inventory.
-- Inconsistent reporting across departments.
-- Difficulty obtaining reliable answers for management decisions.
+For portfolio or public dataset projects, clearly define the problem being addressed from the analyst's perspective.
 
-Current reporting is fragmented across multiple systems, requiring significant manual effort to produce management reports.
+---
+
+# Project Scope
+
+Clearly define what is included within the project and what is intentionally excluded.
+
+A well-defined scope helps maintain focus and prevents unnecessary analysis.
+
+### In Scope
+
+-
+
+### Out of Scope
+
+-
 
 ---
 
 # Business Objectives
 
-The client would like to understand:
+List the primary business objectives that the project aims to achieve.
 
-- What is happening across warehouse operations.
-- Where operational inefficiencies exist.
-- Which issues require immediate attention.
-- How management can make better business decisions using available data.
-- Whether current data is reliable enough to support decision-making.
+Example:
+
+- Improve operational efficiency.
+- Reduce delivery delays.
+- Increase customer satisfaction.
 
 ---
 
-# Available Data
+# Initial Data Sources
 
-The client indicated that business information is currently distributed across multiple sources, including:
+List the data sources currently known or expected to be available.
 
-- Warehouse Management System (WMS)
-- Inventory Reports
-- Purchase Records
-- Supplier Information
-- Returns & Damaged Goods
-- Employee Information
-- Excel Reports
+This section records the initial understanding only.
 
-Additional datasets may be provided as required during the project.
+Detailed data identification and assessment will be performed during the **Data Discovery** phase.
+
+| Data Source | Description | Availability |
+|-------------|-------------|--------------|
+| | | |
 
 ---
 
 # Business Constraints
 
-- Existing warehouse software will remain unchanged.
-- The project focuses on analytical insights rather than system development.
-- Data quality is currently unknown.
-- Multiple departments maintain independent records.
+Document any known limitations that may affect the project.
+
+Examples include:
+
+- Budget limitations
+- Time constraints
+- Limited data availability
+- Data privacy requirements
+- Regulatory compliance
 
 ---
 
-# Timeline
+# Initial Assumptions
 
-The client expects an initial assessment within one month.
+Record assumptions made before detailed investigation begins.
 
-Future analytics initiatives may be considered based on the value delivered by the initial engagement.
+These assumptions should be validated during subsequent DAPM phases.
 
----
-
-# Client Expectations
-
-The client expects the consultant to:
-
-- Understand warehouse operations.
-- Identify operational inefficiencies.
-- Validate data quality.
-- Discover actionable business insights.
-- Deliver practical, evidence-based recommendations.
+| Assumption | Validation Required |
+|------------|---------------------|
+| | |
 
 ---
 
-# Client Closing Statement
+# Expected Timeline
 
-> **Anil Sharma**
->
-> *"Mr. Subir...*
->
-> *From your experience as a Data Analytics Consultant...*
->
-> **Where would you like to begin, and what information do you need from us first?"**
+Provide the expected project duration or major milestones, if available.
+
+| Milestone | Target Date |
+|------------|-------------|
+| | |
 
 ---
 
-# Analyst Notes
+# Expected Outcomes
 
-> Reserved for observations immediately after the client meeting.
+Describe the expected deliverables or business value from the project.
+
+Examples include:
+
+- Business dashboard
+- Analytical report
+- Executive summary
+- Actionable recommendations
+- Operational insights
 
 ---
+
+# Next Step
+
+Proceed to the **Business Understanding** phase to develop a detailed understanding of the business context, operational workflow, and organizational environment.
+
+---
+
+# Initial Observations
+
+Record any important observations identified during project initiation.
+
+These observations are preliminary and should not be treated as validated business conclusions.
+
+| Observation | Notes |
+|-------------|-------|
+| | |
+
+---
+
+# Navigation
+
+| Previous | Next |
+|----------|------|
+| Project Start | [BUSINESS_UNDERSTANDING](02_BUSINESS_UNDERSTANDING.md) |
